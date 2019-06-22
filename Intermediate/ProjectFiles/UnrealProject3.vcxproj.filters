@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\UnrealProject3.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{42C9961A-0D12-4040-9269-97A343E47FED}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealProject3.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\UnrealProject3Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{6AA94B72-B066-48D0-BC28-1C76E70160D6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\UnrealProject3">
+      <UniqueIdentifier>{BD166BF1-F7B3-464C-AD06-BBCF3F3F3614}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\UnrealProject3\UnrealProject3.Build.cs">
+      <Filter>Source\UnrealProject3</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\UnrealProject3\UnrealProject3.cpp">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject3\UnrealProject3.h">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\UnrealProject3\UnrealProject3GameModeBase.cpp">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\UnrealProject3\UnrealProject3GameModeBase.h">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\UnrealProject3\FloatingActor.h">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClInclude>
+    <ClInclude Include="FPSProjectGameMode.h">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\UnrealProject3\FPSCharacter.h">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\UnrealProject3\FloatingActor.cpp">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClCompile>
+    <ClCompile Include="FPSProjectGameMode.cpp">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\UnrealProject3\FPSCharacter.cpp">
+      <Filter>Source\UnrealProject3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
